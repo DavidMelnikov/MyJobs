@@ -1,0 +1,94 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+  <title>АДАПТИВНЫЙ САЙТ</title>
+  <link rel="icon" type="image" href="violet.png">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo"></div>
+    <div class="header__nav__container">
+      <div class="header__nav"></div>
+      <div class="header__nav"></div>
+      <div class="header__nav"></div>
+      <div class="header__nav"></div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="wrapper">
+      <main class="main">
+        <article class="main__article">
+          <aside class="main__article__aside block_1">
+            <img id="imgg" src="https://i.playground.ru/p/5Mt_V4Dou7z0LR9Qp_KQKA.jpeg" alt="">
+            <h1>TITLE 1</h1>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.</p>
+          </aside>
+          <aside class="main__article__aside">
+            <img id="imgg" src="https://i.playground.ru/p/5Mt_V4Dou7z0LR9Qp_KQKA.jpeg" alt="">
+            <h1>TITLE 2</h1>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.</p>
+          </aside>
+          <aside class="main__article__aside">
+            <img id="imgg" src="https://i.playground.ru/p/5Mt_V4Dou7z0LR9Qp_KQKA.jpeg" alt="">
+            <h1>TITLE 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </aside>
+        </article>
+        <article class="article">
+          <aside class="article__aside__container">
+            <aside class="article__aside">
+              <img id="img" src="https://i.playground.ru/p/5Mt_V4Dou7z0LR9Qp_KQKA.jpeg" alt="">
+              <h1>TITLE 4</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam. Lorem ipsum dolor sit amet, consectetur adipisicing eli.
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam. Lorem ipsum dolor sit amet, consectetur adipisicing eli.
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam.</p>
+            </aside>
+            <aside class="article__aside">
+              <img id="img" src="https://i.playground.ru/p/5Mt_V4Dou7z0LR9Qp_KQKA.jpeg" alt="">
+              <h1>TITLE 5</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam. Lorem ipsum dolor sit amet, consectetur adipisicing eli.
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam. Lorem ipsum dolor sit amet, consectetur adipisicing eli.
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam.</p>
+            </aside>
+          </aside>
+        </article>
+      </main>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__item"></div>
+    <div class="footer__item"></div>
+    <div class="footer__item"></div>
+  </footer>
+</body>

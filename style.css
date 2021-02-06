@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
+  font-family: 'William', sans-serif;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+
+
+}
+
+.header {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  width: 100%;
+
+}
+
+.header__nav__container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.header__logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background: violet;
+
+}
+
+.header__nav {
+  height: 20px;
+  width: 100px;
+  background: violet;
+  border-radius: 5px;
+  align-self: center;
+  margin: 0 20px 0 0;
+
+}
+
+.main__article {
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+#imgg {
+  width: 100%;
+  height: auto;
+
+
+}
+
+.main__article__aside {
+  flex: 0 1 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background: violet;
+  margin: 25px 15px;
+  text-align: center;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size:
+}
+
+h1 {
+  margin: 15px 0 7px 0;
+  font-size: 22px;
+  color: black;
+
+}
+
+.article__aside__container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.article__aside {
+  flex: 0 1 40.8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: violet;
+  padding: 25px;
+  margin: 0 15px 0 15px;
+
+}
+
+#img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  height: 25%;
+  flex: 0 1 100%;
+  background: black;
+  margin: 1.8% 0 0 0;
+
+}
+
+.footer__item {
+  background: violet;
+  height: 12%;
+  width: 12%;
+  margin: auto;
+  border-radius: 5px;
+
+
+
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 75%;
+  }
+
+  .main__article__aside {
+    flex: 0 1 25%;
+  }
+
+
+}
+
+@media (max-width: 840px) {
+
+  .main__article,
+  .article__aside__container {
+    flex-direction: column;
+  }
+
+  .article__aside {
+    margin: 3% 3.8% 3% 3.8%;
+  }
+
+  .header__nav__container {
+    flex-direction: column;
+  }
+
+  .header__nav {
+    height: 4px;
+    width: 46px;
+    margin: 0 120% 0 0;
+    padding: 0px;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin: 0 0 0 7%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .main__article__aside {
+    margin: 4%;
+  }
+
+  .footer {
+    height: 25%;
+  }
+
+  .block_1 {
+    margin-top: 7.5%;
+
+  }
+
+  .container {
+    width: 93%;
+  }
